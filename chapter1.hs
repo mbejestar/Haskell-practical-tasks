@@ -42,7 +42,7 @@ firstN n = take n infiniteNumbers
 addNumbers :: Int -> Int -> Int
 addNumbers x y = x + y
 
--- HC1T7 - Task 7: Converting Fahrenheit to Celsius
+-- HC1T7 - Task 7: Converting Fahrenheit to Celsius.
 fToC :: Fractional a => a -> a
 fToC f = (f - 32) * 5 / 9
 
